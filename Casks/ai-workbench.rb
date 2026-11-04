@@ -16,7 +16,7 @@ cask "ai-workbench" do
   # Homebrew owns the install on a Mac: the Updates pane only points at the download page there.
   auto_updates false
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "AI Workbench.app"
