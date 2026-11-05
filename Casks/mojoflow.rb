@@ -14,7 +14,7 @@ cask "mojoflow" do
 
   # Homebrew owns the install on a Mac: the app points at `brew upgrade --cask mojoflow` there.
   auto_updates false
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "MojoFlow.app"
