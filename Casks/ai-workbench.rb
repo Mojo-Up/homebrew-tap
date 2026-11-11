@@ -1,7 +1,7 @@
 cask "ai-workbench" do
 
-  version "0.92.1"
-  sha256 "7a89ed8f1915dec1514c6a1ddac11395bd3d39aa8ab697d28c83c5faea54dbf7"
+  version "0.92.42"
+  sha256 "327f5d5541048dc668e7d717862599d22bf23c1608fe205204b40d617db0c6a1"
 
   url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v#{version}/mju-ai-workbench-desktop-#{version}-mac-arm64.dmg"
   name "AI Workbench"
