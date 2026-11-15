@@ -1,25 +1,25 @@
 class MojoupNode < Formula
   desc "Headless AI Workbench node: runs agent teams on a machine without a screen"
   homepage "https://github.com/Mojo-Up/ai-workbench-releases"
-  version "0.92.1"
+  version "0.92.46"
   # Free to use, not open source (LICENSE in the releases repository); no SPDX identifier says that.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v0.92.1/MojoUp-AI-Workbench-Node-0.92.1-darwin-arm64.tar.gz"
-      sha256 "ba065c0a1e15d98e672dfc1520736afadc135b8d6341ed718441e17304b36757"
+      url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v0.92.46/MojoUp-AI-Workbench-Node-0.92.46-darwin-arm64.tar.gz"
+      sha256 "b82f441f95dc7fc86c7fe69a6f3ffa107a0e0096b755e18da01160355aec7e55"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v0.92.1/MojoUp-AI-Workbench-Node-0.92.1-linux-arm64.tar.gz"
-      sha256 "b2debad47dc2b86b64df2df5c9b9f1251ef767de55f7e10f1f9d1f321ee8ca80"
+      url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v0.92.46/MojoUp-AI-Workbench-Node-0.92.46-linux-arm64.tar.gz"
+      sha256 "2a390dda6809f2a809515e6a38789f924b1908d653f6df8a62b88e543e0a0ee0"
     end
     on_intel do
-      url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v0.92.1/MojoUp-AI-Workbench-Node-0.92.1-linux-x64.tar.gz"
-      sha256 "73d3551e0571eb571b9cff13a61cb2b3460120ef81b8de45bf6969840d7e0700"
+      url "https://github.com/Mojo-Up/ai-workbench-releases/releases/download/v0.92.46/MojoUp-AI-Workbench-Node-0.92.46-linux-x64.tar.gz"
+      sha256 "cd5a35b530d409e362554eb7a6436af027a32ccac3d1403c65082c4128e36fa9"
     end
   end
 
