@@ -1,6 +1,6 @@
 cask "mojoflow" do
-  version "0.12.2"
-  sha256 "a431754c21d0f67c18c7e4df126f697b3c4adb3cc783e72ca5b316d7242579f2"
+  version "0.12.5"
+  sha256 "0dacadbc33bc6cc647566182d3b6e524fa941065b650c7f4056d15d992dd52d6"
 
   url "https://github.com/Mojo-Up/mojoflow-releases/releases/download/v#{version}/MojoFlow-#{version}-mac-arm64.zip"
   name "MojoFlow"
